@@ -1487,7 +1487,7 @@
   {
     "identifier": "yearn_finance",
     "name": "Yearn Finance",
-    "description": "Yearn Finance is a multi-chain yield aggregator that automates yield using investment pools and reacts to opportunities in the marketplace. It allows for interest earned on deposited tokens, no withdrawal fees, and offers the ability to build investment strategies to increase yield in Yearn vaults.",
+    "description": "Yearn Finance is a multi-chain yield aggregator that automates yield using investment pools and reacts to opportunities in the marketplace. It allows for interest earned on deposited tokens, no withdrawal fees, and offers the ability to build investment strategies to increase yield in Yearn vaults",
     "icon": "/protocol/yearn_finance.png",
     "chains": ["ethereum", "polygon"],
     "category": ["YIELD"],
