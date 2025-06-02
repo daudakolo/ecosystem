@@ -196,6 +196,10 @@
       "github": "https://github.com/beethovenxfi/"
     },
     "reference": [
+      "beets_composable_stable_v6",
+      "beets_stable_v3",
+      "beets_v3_weighted",
+      "beets_weighted_v4",
       "beets_v2_composable_stable_v4",
       "beets_v2_composable_stable_v5",
       "beets_v2_composable_stable_v6",
@@ -412,6 +416,23 @@
     "reference": ["dodo_v1", "dodo_v2_dpp", "dodo_v2_dsp", "dodo_v2_dvm"]
   },
   {
+    "identifier": "equalizer_exchange",
+    "name": "Equalizer Exchange",
+    "description": "Equalizer is a next-generation decentralized exchange (DEX) and automated market maker (AMM) designed for low-slippage, high-efficiency trading and protocol liquidity on the Fantom and Sonic networks.",
+    "icon": "/protocol/equalizer_exchange.png",
+    "chains": ["sonic"],
+    "category": ["DEX", "AMM"],
+    "website": "https://equalizer.exchange/",
+    "docs": "https://docs.equalizer.exchange/",
+    "socials": {
+      "twitter": "https://x.com/Equalizer0x",
+      "discord": "https://discord.com/invite/6ubHeztmYV",
+      "telegram": "",
+      "github": "https://github.com/Equalizer-Exchange"
+    },
+    "reference": ["equalizer_exchange"]
+  },
+  {
     "identifier": "ether.fi",
     "name": "Ether.Fi",
     "description": "Ether.fi is a decentralized liquid restaking platform focused on non-custodial Ethereum staking.",
@@ -522,6 +543,23 @@
       "github": "https://github.com/hashflownetwork/"
     },
     "reference": ["hashflow_v3_fok"]
+  },
+  {
+    "identifier": "honeyswap",
+    "name": "Honeyswap",
+    "description": "Honeyswap is a decentralized exchange (DEX) built on the Gnosis Chain and other EVM-compatible chains, enabling community-driven liquidity and low-cost trading with support for local economies.",
+    "icon": "/protocol/honeyswap.png",
+    "chains": ["gnosis"],
+    "category": ["DEX", "AMM"],
+    "website": "https://honeyswap.org/",
+    "docs": "https://wiki.1hive.org/projects/honeyswap",
+    "socials": {
+      "twitter": "https://x.com/Honeyswap",
+      "discord": "https://discord.com/invite/ruPtTTabDu",
+      "telegram": "https://t.me/honeyswapDEX",
+      "github": "https://github.com/1Hive"
+    },
+    "reference": ["honeyswap"]
   },
   {
     "identifier": "hyperlend",
@@ -1139,6 +1177,23 @@
     "reference": ["symbiotic"]
   },
   {
+    "identifier": "syncswap",
+    "name": "SyncSwap",
+    "description": "SyncSwap is a leading decentralized exchange built on zkSync Era, offering a user-friendly interface and efficient trading powered by zero-knowledge rollups. It supports classic and stable AMM pools designed for scalability and low fees.",
+    "icon": "/protocol/syncswap.png",
+    "chains": ["linea", "scroll"],
+    "category": ["DEX", "AMM"],
+    "website": "https://syncswap.xyz/",
+    "docs": "https://docs.syncswap.xyz/syncswap",
+    "socials": {
+      "twitter": "https://x.com/syncswap",
+      "discord": "https://discord.com/invite/syncswap",
+      "telegram": "",
+      "github": "https://github.com/syncswap"
+    },
+    "reference": ["sync_v1_classic"]
+  },
+  {
     "identifier": "tenderswap",
     "name": "Tenderswap",
     "description": "Instantly unstake your LSTs for a small fee, no more unstaking periods! It is a novel decentralised exchange, specifically tailored for LSTs and LRTs, that unifies liquidity for various derivatives of the same base token.",
@@ -1450,6 +1505,28 @@
       "valantis_stex_amm"
     ]
   },
+  {
+    "identifier": "venus_protocol",
+    "name": "Venus Protocol",
+    "description": "Venus Protocol is a decentralized money market and synthetic stablecoin protocol on BNB Chain and other EVM-compatible chains. It allows users to supply and borrow assets, earn interest, and mint the VAI stablecoin.",
+    "icon": "/protocol/venus_protocol.png",
+    "chains": ["bnb", "arbitrum", "optimism", "ethereum"],
+    "category": ["LENDING"],
+    "website": "https://venus.io/",
+    "docs": "https://docs-v4.venus.io/",
+    "socials": {
+      "twitter": "https://x.com/VenusProtocol",
+      "discord": "https://discord.com/invite/venusprotocol",
+      "telegram": "https://t.me/VenusProtocol",
+      "github": "https://github.com/VenusProtocol"
+    },
+    "reference": [
+      "venus_arb_core_pools",
+      "venus_op_core_pools",
+      "venus_eth_core_pools",
+      "venus_bnb_core_pools"
+    ]
+  },  
   {
     "identifier": "velodrome",
     "name": "Velodrome",
